@@ -99,3 +99,107 @@ cd path/to/my/site
 你可以使用`Ctrl+C`退出，caddy将尽可能优雅中断。
 
 ## 配置
+你的站点已经可以用于生产环境了，不过现在还并不完美，因为我们还只是在本地你自己的电脑上运行：
+* 站点是运行在2015端口，而不是80端口（标准http端口）。
+* 另外，站点还没有支持HTTPS。
+
+你只需要把网站的“名字”告诉Caddy，就可以很轻松地解决这两个问题了。当然，这里所说的“名字”，就是网站的域名了。我们将用“example.com”作为例子，你还是使用你真正的域名。接下来的操作，需要保证你的电脑能通过公网访问到80和443端口，并且域名被解析到你的电脑。反之，如果你还没有域名，你可以先使用“localhost”作为替代。
+
+网站的“名字”又被称为“主机”或者“主机名”。可以通过一个参数指定主机：
+> __Windows__
+
+> `C:\Caddy\caddy.exe -host example.com`
+
+> __macOS__
+
+> `$ caddy -host example.com`
+
+> __Linux__
+
+> `$ caddy -host example.com`
+
+当第一次使用一个真正的域名（不是localhost）运行Caddy时，会出现提示要求输入你的email地址。这是因为Caddy需要验证你的域名，并将验证信息安全地存储在硬盘上。
+
+
+当提交你的email地址后，你是否看到了权限方面的报错？这是因为Caddy必须将40和443端口绑定到一个真正的站点，而这需要root或者Administrator的权限：
+
+> __Windows__
+
+> 右键cmd.exe，点击“用管理员运行”，然后运行Caddy：
+> `C:\Caddy\caddy.exe -host example.com`
+
+> __macOS__
+
+> 使用`sudo`命令运行caddy
+
+> `$ caddy -host example.com`
+
+> __Linux__
+
+> 使用`sudo`命令运行caddy
+
+> `$ caddy -host example.com`
+
+如果权限正确的话，你将会看到：
+```bash
+Activating privacy features... done.
+https://example.com
+http://example.com
+```
+使用真正的域名因为是对80和443端口进行操作，会触发Caddy的隐私政策。如果你只是使用`localhost`作为主机名的话，Caddy会继续使用2015作为端口，除非你通过`-port`选项指定别的端口。
+
+[命令行接口](cli.md)比使用Caddy配置来得更快。但是你想不想每次都能复用同样的配置呢？使用Caddyfile将更加简单。
+
+__Caddyfile__用来告诉Caddy如何提供服务的文本文件。他通常和网站放在一起。我们来创建一个：
+
+
+> __Windows__
+
+> 在网站目录创建一个名叫的文件，然后输入一行内容（使用你真实的域名，或者`localhost`）：
+> 
+> `example.com`
+
+> __macOS__
+
+> 使用你真实的域名（或者`localhost`）：
+
+> `$ echo example.com > Caddyfile`
+
+> __Linux__
+
+> 使用你真实的域名（或者`localhost`）：
+
+> `$ echo example.com > Caddyfile`
+
+Caddy启动的时候会自动查找到该文件。
+> __Windows__
+
+> `caddy`
+
+> __macOS__
+
+> `$ caddy`
+
+> __Linux__
+
+> `$ caddy`
+
+Caddyfile的第一行总是用来表示站点的访问地址（或者名称），因此只需简单的一行就管用了。
+
+如果Caddyfile放在另外的目录，你需要告诉Caddy准确的位置：
+
+> __Windows__
+
+> `caddy -conf C:\path\to\Caddyfile`
+
+> __macOS__
+
+> `$ caddy -conf ../path/to/Caddyfile`
+
+> __Linux__
+
+> `$ caddy -conf ../path/to/Caddyfile`
+
+你基本已经知道最需要了解的部分了。接下来，你将进一步了解如何使用[Caddyfile](caddyfile.md)，相信你会喜欢它的简单易用。
+
+或者进入“[文档](./)”页面。
