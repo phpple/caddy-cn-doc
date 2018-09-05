@@ -1,0 +1,9 @@
+localhost:20010
+
+errors logs/error.log
+log    logs/access.log
+
+markdown /doc/ {
+    css         css/sidebar.css
+    template    tpl/index.html
+}

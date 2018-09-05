@@ -1,0 +1,45 @@
+@media (min-width: 1200px)
+.bd-sidebar {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 320px;
+    flex: 0 1 320px;
+}
+@media (min-width: 768px)
+.bd-sidebar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 4rem;
+    z-index: 1000;
+    height: calc(100vh - 4rem);
+}
+@media (min-width: 768px)
+.bd-sidebar {
+    border-right: 1px solid rgba(0,0,0,.1);
+}
+.bd-sidebar {
+    -webkit-box-ordinal-group: 1;
+    -ms-flex-order: 0;
+    order: 0;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.bd-sidenav {
+    display: block;
+}
+.bd-sidebar .nav>li>a {
+    display: block;
+    padding: .02rem 0.80rem;
+    font-size: 90%;
+    color: rgba(0,0,0,.65);
+    line-height:180%;
+}
+.bd-sidebar .nav>li>a:hover {
+    background-color:#f0f0f0;
+    text-decoration:none;
+    color: rgba(0,0,0,0.85);
+}
+.bd-toc-link {
+    display: block;
+    padding: 1rem 0.05rem;
+    font-weight: 500;
+    color: rgba(0,0,0,.65);
+}

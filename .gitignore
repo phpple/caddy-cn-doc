@@ -1,0 +1,4 @@
+/caddyserver.com/
+.DS_Store
+*.tgz
+*.log
