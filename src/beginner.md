@@ -1,8 +1,8 @@
-+++
-title = "新手入门"
-sitename = "caddy中文文档"
-template = "tutorial"
-+++
+---
+title: "新手入门"
+sitename: "Caddy中文文档"
+template: "tutorial"
+---
 
 # 新手入门
 这个向导将帮助你完成首次安装、运行、配置caddy。我们是假定你从未使用过任何web服务器软件（加入你已经使用过，可以直接阅读[快速开始](tutorial.md)）。虽然caddy可以很快学会如何使用，我们还是希望你了解下面这些操作：

@@ -1,8 +1,8 @@
-+++
-title = "Caddyfile入门"
-sitename = "caddy中文文档"
-template = "tutorial"
-+++
+---
+title: "Caddyfile入门"
+sitename: "Caddy中文文档"
+template: "tutorial"
+---
 
 # Caddyfile入门
 
