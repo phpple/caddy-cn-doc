@@ -1,7 +1,7 @@
 +++
 title = "教程"
 sitename = "Caddy中文教程"
-subject = "tutorial"
+template = "tutorial"
 +++
 
 # 快速开始
