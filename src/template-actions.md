@@ -3,7 +3,7 @@ title: "模板动作"
 sitename: "Caddy中文文档"
 ---
 
-# 模板指令
+# 模板动作
 
 Caddy的模板功能使得可以在静态站点中添加动态内容，也能通过包含页面减少重复内容。很多指令都支持模板，比如`templates`、`browse`和`markdown`。
 
