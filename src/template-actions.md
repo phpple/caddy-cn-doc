@@ -161,31 +161,62 @@ __列举目录中的文件__
 {{.Context.Files "sub/directory"}} // markdown的模板里边需要加上前缀.Context
 ```
 
-__Whether HTTPS interception is likely:
+__是否有可能HTTPS拦截__
+```html
 {{.IsMITM}}
-Random string of random length between min and max length:
-{{.RandomString 100 10000}}
-Built-in Sanitization Functions
-These functions are built into text/template but you may find them helpful.
+```
 
-Make HTML-safe (escape special characters):
+__生成最小和最大值间长度的字符串__
+
+```html
+{{.RandomString 100 10000}}
+```
+
+## 内置处理函数
+
+这些函数内置在`text/template`，但是你可能会发现他们很有用。
+
+* 使HTML安全（转移特殊字符）
+
+```
 {{html "Makes it <i>safe</i> to render as HTML"}}
-Make JavaScript-safe:
+```
+
+* 使JavaScript安全
+
+```html
 {{js "Makes content safe for use in JS"}}
-URL-escape (query-encode):
+```
+
+* 使URL安全（对请求编码）
+
+```html
 {{urlquery "Makes safe for URL query strings"}}
-Control Statements
-If:
+```
+
+## 控制语句
+
+* `If`
+
+```html
 {{if .PathMatches "/secret/sauce"}}
     Only for secret sauce pages
 {{end}}
-If-else:
+```
+
+* `If-else`
+
+```html
 {{if .PathMatches "/secret/sauce"}}
     Only for secret sauce pages
 {{else}}
     No secret sauce for you
 {{end}}
-If-elseif-else:
+```
+
+`If-elseif-else`
+
+```html
 {{if .PathMatches "/secret/sauce"}}
     Only for secret sauce pages
 {{else if eq .URL "/banana.html"}}
@@ -193,25 +224,43 @@ If-elseif-else:
 {{else}}
     No bananas or secret sauce
 {{end}}
-Range: (iterate data; this example dumps request headers)
+```
+
+* Range: (迭代数据; 这个例子用来打印头信息）
+
+```html
 {{range $field, $val := .Req.Header}}
     {{$field}}: {{$val}}
 {{end}}
-Server-side comments:
+```
+
+* 服务端注释
+
+```html
 {{/* This isn't sent to the client */}}
-Comparison Functions
-Useful in "if" statements, you can use comparison functions:
+```
 
-eq Equal
-ne Not equal
-lt Less than
-le Less than or equal
-gt Greater than
-ge Greater than or equal
-Or these logic functions:
+## 比较函数
+在`if`表达式中，你可以使用比较函数：
 
-not Reverses the if condition
-or Returns first non-empty argument or the last argument
-and Returns first empty argument or the last argument
-Further Reading
-These are just a few examples of what you can do. If you need even more template power, read the description of the text/template package which goes into much more detail.
+| 表达式 | 用途       |
+|-------|-----------|
+| `eq`  | 等于       |
+| `ne`  | 不等于     |
+| `it`  | 小于       |
+| `le`  | 小于或等于  |
+| `gt`  | 大于       |
+| `ge`  | 大于或等于  |
+
+或者一些逻辑表达式
+
+| 表达式 | 用途       |
+|-------|-----------|
+| `not` | 反转`if`条件 |
+| `or`  | 返回第一个非空参数或者最后一个参数 |
+| `and` | 返回第一个空参数或者最后一个参数   |
+
+
+## 进一步阅读
+
+这里只列举了一部分你可以使用的例子。如果你需要更多的模板功能，可以通过查阅[`text/template`](http://golang.org/pkg/text/template/)包了解更多细节。
