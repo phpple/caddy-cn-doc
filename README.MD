@@ -6,7 +6,7 @@ Caddy中文文档
 可以通过caddy命令直接运行本项目。
 
 ```bash
-git clone https://gitlab.com/dengxiaolong/caddy-cn-doc
+git clone https://github.com/phpple/caddy-cn-doc
 cd caddy-cn-doc
 caddy
 ```
