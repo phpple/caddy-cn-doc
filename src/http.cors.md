@@ -12,14 +12,14 @@ Caddy默认不支持此功能。如果需要，下载之前需要勾选上`http.
 
 ## 例子
 
-* 简单用法
+### 简单用法
 
 ```caddy
 cors
 ```
 允许所有来源访问所有资源
 
-* 只允许指定的来源访问域名
+### 只允许指定的来源访问域名
 
 ```caddy
 cors / http://mytrusteddomain.tld http://myotherdomain.com
@@ -27,7 +27,7 @@ cors / http://mytrusteddomain.tld http://myotherdomain.com
 
 只允许来自指定的几个域名的跨域请求。
 
-* 完整配置
+### 完整配置
 
 ```caddy
 cors / {
