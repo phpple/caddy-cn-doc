@@ -1,20 +1,19 @@
 #! /bin/bash
-pwd
 
+function output() {
+    msg=$1
+    echo [$(date +"%Y/%m/%d %H:%I:%S")] $msg >&2
+}
+
+output "开始构建"
+
+output "当前位置：$pwd"
 if [[ "$(pwd)" =~ "/repo" ]];then
     cd ../
+    output "切换到：$pwd"
 fi
 
-pwd
 source ./env
-
-function handlemd() {
-    file=$1
-
-    # 充命名
-    newfile=${file/.md/.html}
-    cp $file $newfile
-}
 
 # 根据环境来设置拷贝来源
 destdir="dist"
@@ -30,9 +29,18 @@ mkdir $destdir
 cp -rf $cpdir/* $destdir
 
 # 开始替换
-for md in $(find $destdir -type f -name *.md)
+output "修改md后缀为html"
+for file in $(find $destdir -type f -name *.md)
 do
-    handlemd $md
+    cp $file ${file/.md/.html}
 done
 
-find $destdir -type f|xargs sed -i '' -E "s@.md(\"|\))@.html\1@g"
+# 替换后缀
+output "修改url后缀为html"
+if [ $ISMAC ];then
+    find $destdir -type f|xargs sed -i '' -E "s@.md(\"|\))@.html\1@g"
+else
+    find $destdir -type f|xargs sed -i -E "s@.md(\"|\))@.html\1@g"
+fi
+
+output "构建成功"
