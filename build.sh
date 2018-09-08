@@ -37,7 +37,7 @@ done
 
 # 替换后缀
 output "修改url后缀为html"
-if [ $ISMAC ];then
+if [ $ISMAC = 1 ];then
     find $destdir -type f|xargs sed -i '' -E "s@.md(\"|\))@.html\1@g"
 else
     find $destdir -type f|xargs sed -i -E "s@.md(\"|\))@.html\1@g"

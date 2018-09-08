@@ -3,7 +3,7 @@
 #export ENVNAME="production"
 export ENVNAME="development"
 
-if [ "$(uname -a|grep Darwin|wc -l)" = "1" ];then
+if [ "$(uname -a|grep Darwin|wc -l|awk '{print $1}')" = "1" ];then
     export ISMAC=1
 else
     export ISMAC=0
