@@ -2,11 +2,18 @@ localhost
 
 errors logs/error.log
 log    logs/access.log
-root   src
+root   dist/
 
 rewrite /mitm/check /mitm/{mitm}.html
 
 markdown / {
-    template  tpl/index.html
-    template  tutorial  tpl/tutorial.html
+    ext       .html .md
+    template  ../src/tpl/index.html
+    template  tutorial  ../src/tpl/tutorial.html
+}
+
+git https://github.com/phpple/caddy-cn-doc ../repo {
+    interval   300
+    clone_args "--depth=1"
+    then       /bin/bash ../build.sh
 }
