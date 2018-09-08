@@ -1,0 +1,4 @@
+#! /bin/bash
+# 生产环境设置为production
+#export ENVNAME="production"
+export ENVNAME="development"

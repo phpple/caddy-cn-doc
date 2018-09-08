@@ -4,12 +4,12 @@ errors logs/error.log
 log    logs/access.log
 root   dist/
 
-rewrite /mitm/check /mitm/{mitm}.html
+rewrite /mitm/check /mitm/{mitm}.shtml
 
 markdown / {
     ext       .html .md
-    template  ../src/tpl/index.html
-    template  tutorial  ../src/tpl/tutorial.html
+    template  tpl/index.shtml
+    template  tutorial  tpl/tutorial.shtml
 }
 
 git https://github.com/phpple/caddy-cn-doc ../repo {

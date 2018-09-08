@@ -1,29 +1,25 @@
-{{.Include "tpl/header.html"}}
+{{.Include "tpl/header.shtml"}}
 <ul class="navbar-nav mr-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./">文档</a>
+    <a class="nav-link" href="./">文档</a>
   </li>
   <li class="nav-item">
-    {{if .PathMatches "tutorial.md"}}
     <a class="nav-link active" href="tutorial.md">教程</a>
-    {{else}}
-    <a class="nav-link" href="tutorial.md">教程</a>
-    {{end}}
   </li>
   <li class="nav-item">
     <a class="nav-link" href="https://github.com/caddyserver/examples" target="_blank">示例</a>
   </li>
 </ul>
 <div class="my-2 my-lg-0">
-  {{.Include "tpl/github.html"}}
-</div>
+  {{.Include "tpl/github.shtml"}}
+</form>
 </div>
 </nav>
 <div class="container-fluid">
   <div class="row flex-xl-nowrap">
     <div class="col-12 col-md-3 col-xl-2 bd-sidebar">
       <nav class="nav">
-      {{.Markdown "toc.md"}}
+      {{.Markdown "tt-toc.md"}}
       </nav>
     </div>
     <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">
@@ -31,4 +27,4 @@
     </main>
   </div>
 </div>
-{{.Include "tpl/footer.html"}}
+{{.Include "tpl/footer.shtml"}}

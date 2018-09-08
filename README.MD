@@ -8,6 +8,7 @@ Caddy中文文档
 ```bash
 git clone https://github.com/phpple/caddy-cn-doc
 cd caddy-cn-doc
+bash build.sh
 caddy
 ```
 

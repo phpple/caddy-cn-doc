@@ -1,7 +1,13 @@
 #! /bin/bash
 pwd
-cd ../
+
+if [[ "$(pwd)" =~ "/repo" ]];then
+    cd ../
+fi
+
 pwd
+source ./env
+
 function handlemd() {
     file=$1
 
@@ -10,12 +16,18 @@ function handlemd() {
     cp $file $newfile
 }
 
+# 根据环境来设置拷贝来源
 destdir="dist"
+cpdir="repo/src"
+if [ "$ENVNAME" = "development" ];then
+    cpdir="src"
+fi
+
 if [ -d $destdir ];then
     rm -rf $destdir
 fi
 mkdir $destdir
-cp -rf repo/src/* $destdir
+cp -rf $cpdir/* $destdir
 
 # 开始替换
 for md in $(find $destdir -type f -name *.md)
