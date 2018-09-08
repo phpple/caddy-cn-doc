@@ -1,7 +1,6 @@
 blockquote {
     padding: 10px 20px;
     margin: 0 0 20px;
-    font-size: 17.5px;
     border-left: 5px solid #eee;
 }
 
@@ -32,21 +31,35 @@ blockquote {
 .bd-sidenav {
     display: block;
 }
-.bd-sidebar .nav>li>a {
-    display: block;
-    padding: .02rem 0.80rem;
-    font-size: 90%;
-    color: rgba(0,0,0,.65);
-    line-height:180%;
+.bd-sidebar .nav>ul{
+    padding:0;
+    font-weight:normal;
 }
-.bd-sidebar .nav>li>a:hover {
+.bd-sidebar .nav>ul>li {
+    display: block;
+    padding: 0.5rem 0.05rem;
+    font-weight: 200;
+    color: rgba(0,0,0,.75);
+}
+.bd-sidebar .nav>ul>li>ul>li{
+    list-style:none;
+    font-weight: normal;
+}
+.bd-sidebar .nav>ul>li>ul{
+    font-size:90%;
+    padding:0.05rem 0;
+}
+.bd-sidebar .nav>ul>li>ul>li>a{
+    padding:0.1rem 1rem;
+    display: block;
+    color: rgba(0,0,0,.55);
+    border-radius: 0.2rem;
+}
+.bd-sidebar .nav>ul>li>ul>li>a:hover {
     background-color:#f0f0f0;
     text-decoration:none;
     color: rgba(0,0,0,0.85);
 }
 .bd-toc-link {
-    display: block;
-    padding: 1rem 0.05rem;
-    font-weight: 500;
-    color: rgba(0,0,0,.65);
+    
 }

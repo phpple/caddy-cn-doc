@@ -19,7 +19,9 @@
 <div class="container-fluid">
   <div class="row flex-xl-nowrap">
     <div class="col-12 col-md-3 col-xl-2 bd-sidebar">
-      {{.Include "tpl/tt-sidebar.html"}}
+      <nav class="nav">
+      {{.Markdown "tt-toc.md"}}
+      </nav>
     </div>
     <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">
     {{.Doc.body}}
