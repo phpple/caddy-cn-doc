@@ -13,3 +13,7 @@ caddy
 ```
 
 打开<http://localhost:2015>即可浏览。
+
+* [文档首页](src/index.md)
+* [目录浏览](src/toc.md)
+* [Caddy中文文档在线浏览](https://dengxiaolong.com/caddy/cn-doc/)
