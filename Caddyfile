@@ -4,6 +4,8 @@ errors logs/error.log
 log    logs/access.log
 root   src
 
+rewrite /mitm/check /mitm/{mitm}.html
+
 markdown / {
     template  tpl/index.html
     template  tutorial  tpl/tutorial.html

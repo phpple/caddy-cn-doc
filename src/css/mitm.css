@@ -1,0 +1,42 @@
+.demo {
+    border: 8px solid #555;
+    border-radius: 25px;
+    color: #333;
+    background: #F5F5F5;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.demo.mitm-likely { border-color: #CC0000; color: #CC0000; }
+.demo.mitm-likely .demo-title { background: #CC0000; }
+.demo.mitm-likely .demo-result { color: #CC0000; }
+
+.demo.mitm-unlikely { border-color: #008000; color: #008000; }
+.demo.mitm-unlikely .demo-title { background: #008000; }
+.demo.mitm-unlikely .demo-result { color: #008000; }
+
+
+.demo-title {
+    background: #555;
+    color: #FFF;
+    font-weight: bold;
+    padding-bottom: 8px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.demo-result {
+    color: #555;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding: .5rem;
+}
+
+.demo-explanations {
+    padding: 0 1rem 1rem;
+}
+
+.demo-explanation {
+    
+}
