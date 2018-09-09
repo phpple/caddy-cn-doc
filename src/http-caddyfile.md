@@ -17,11 +17,11 @@ sitename: "Caddy中文文档"
 
 ## 网站地址
 
-HTTP服务器使用站点地址作为标签。地址必须使用这种格式：`scheme`://`host`:`port/`path`，只有一个是可选的。
+HTTP服务器使用站点地址作为标签。地址必须使用这种格式：`scheme`://`host`:`port`/`path`，只有一个是可选的。
 
 主机部分通常是localhost或域名。默认端口是2015(除非该站点符合自动[HTTPS标准](automatic-https.md)，在这种情况下，它为您更改为443)。scheme部分是指定端口的另一种方法。有效的schema包括“http”或“https”，它们分别表示端口80和443端口。如果指定了schema和端口，则端口优先。例如(此表假设满足自动HTTPS的资格):
 
-```
+```caddy
 :2015                    # 主机： (any), 端口： 2015
 localhost                # 主机： localhost; 端口： 2015
 local主机：8080           # 主机： localhost; 端口： 8080
