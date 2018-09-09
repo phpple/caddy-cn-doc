@@ -2,7 +2,7 @@
     - [教程](tutorial.md)
     - [命令行接口](cli.md)
     - [Caddyfile](caddyfile.md)
-    - [遥测](Telemetry.md) 
+    - [遥测](telemetry.md) 
 * HTTP服务
     - [HTTP Caddyfile](http-caddyfile.md)
     - [自动HTTPS](automatic-https.md)
