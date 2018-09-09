@@ -1,5 +1,5 @@
 ---
-name: "占位符"
+title: "占位符"
 sitename: "Caddy中文文档"
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: "HTTP Caddyfile"
+title: "HTTP Caddyfile"
 sitename: "Caddy中文文档"
 ---
 

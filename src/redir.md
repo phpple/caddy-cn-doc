@@ -1,5 +1,5 @@
 ---
-name: "http.redir"
+title: "http.redir"
 sitename: "Caddy中文文档"
 ---
 

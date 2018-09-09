@@ -1,5 +1,5 @@
 ---
-name: "HTTPS劫持诊断"
+title: "HTTPS劫持诊断"
 sitename: "Caddy中文文档"
 ---
 

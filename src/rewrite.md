@@ -1,5 +1,5 @@
 ---
-name: "http.rewrite"
+title: "http.rewrite"
 sitename: "Caddy中文文档"
 ---
 

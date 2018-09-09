@@ -12,7 +12,7 @@ touch src/$name.md
 
 cat > src/$name.md <<MARKDOWN
 ---
-name: "$title"
+title: "$title"
 sitename: "Caddy中文文档"
 ---
 
