@@ -10,8 +10,10 @@ title=$2
 
 touch src/$name.md
 
+now=$(date +"%Y-%m-%d %H:%M:%S +0800")
 cat > src/$name.md <<MARKDOWN
 ---
+date: $now
 title: "$title"
 sitename: "Caddy中文文档"
 ---
