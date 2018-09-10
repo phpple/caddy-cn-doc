@@ -27,7 +27,7 @@ __在被包含文件内获取参数__
 {{index .Args 0}} // 0表示第一个参数，以此类推
 ```
 
-__包含和渲染一个文件__（不需要[markdown](markdown.md)中间件）
+__包含和渲染一个文件__（不需要[markdown](http.markdown.md)中间件）
 
 ```html
 {{.Markdown "path/to/file.md"}}

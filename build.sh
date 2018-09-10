@@ -32,7 +32,7 @@ cp -rf $cpdir/* $destdir
 output "修改md后缀为html"
 for file in $(find $destdir -type f -name *.md)
 do
-    cp $file ${file/.md/.html}
+    mv $file ${file/.md/.html}
 done
 
 # 替换后缀

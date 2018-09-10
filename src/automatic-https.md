@@ -66,7 +66,7 @@ Caddy将在您的家目录中创建一个名为`.caddy`的文件夹。它用来�
 在版本0.10.12中，Caddy通过在磁盘上共享证书，支持在fleet/集群配置中使用自动HTTPS。所有访问同一个$CADDYPATH/acme文件夹的Caddy实例都将从磁盘共享证书，并相应地同步它们的自动更新。它需要将文件夹挂载为本地文件系统的一部分。这允许您运行数千个Caddy实例，共享相同的证书，而不需要每个都尝试更新它们：只有一个会更新，其余的将加载刷新的证书并使用它。
 
 ### 通配符证书
-当站点配置了合格的通配符主机名时，Caddy可以获得和管理通配符证书。如果一个站点的最左边的域标签是通配符，那么该站点名称就属于通配符。例如，`*.example.com`有资格，但这些不行：`sub.*.example.com`, `foo*.example.com`， `*bar.example.com`， `*.*.example.com`等等。要获得通配符，只需启用DNS验证(后面将会介绍;它使用非常简单)。我们建议只在您有很多子域名时才使用通配符，因为尝试给他们全部获取证书时可能会遇到CA限速。如果您的Caddyfile中有许多不同配置的子域名，您还可以使用[tls](tls.md)指令的`wildcard`子指令为它们强制使用通配符。
+当站点配置了合格的通配符主机名时，Caddy可以获得和管理通配符证书。如果一个站点的最左边的域标签是通配符，那么该站点名称就属于通配符。例如，`*.example.com`有资格，但这些不行：`sub.*.example.com`, `foo*.example.com`， `*bar.example.com`， `*.*.example.com`等等。要获得通配符，只需启用DNS验证(后面将会介绍;它使用非常简单)。我们建议只在您有很多子域名时才使用通配符，因为尝试给他们全部获取证书时可能会遇到CA限速。如果您的Caddyfile中有许多不同配置的子域名，您还可以使用[tls](http.tls.md)指令的`wildcard`子指令为它们强制使用通配符。
 
 ### 透明度报告
 当Caddy从发布证书透明日志的CA获得证书时，必须将您的域名和/或IP地址包含在这些日志中，因为它们不被视为私有信息。(Let's Encrypt就是这样一个CA)这是件好事；证书透明度报告[促使CA负责](https://googleonlinesecurity.blogspot.com/2015/10/sustaining-digital-certificate-security.html)。
@@ -81,7 +81,7 @@ Caddy可以通过多种验证类型获得证书。只有一种验证Caddy不需�
 3. 通过环境变量给Caddy提供访问你账户的凭证以解决验证。
 
 #### 启用DNS验证
-在Caddyfile中，你可以如下使用[tls指令](tls.md)和`dns`关键字：
+在Caddyfile中，你可以如下使用[tls指令](http.tls.md)和`dns`关键字：
 
 ```caddy
 tls {

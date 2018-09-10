@@ -8,7 +8,7 @@ sitename: "Caddy中文文档"
 
 header可以操作响应头。
 
-注意，如果希望从代理后端删除响应标头，必须在[proxy](proxy.md)指令中这样做。
+注意，如果希望从代理后端删除响应标头，必须在[proxy](http.proxy.md)指令中这样做。
 
 ## 语法
 

@@ -13,15 +13,15 @@ Caddy有能力检测是否有中间人(MITM)在攻击HTTPS连接，虽然浏览�
 
 被拦截的TLS连接不安全，尽管软件供应商的广告与此相反。对可疑的MITM攻击的反响程度取决于你自己、站点的性质、受众以及政治环境。您可能会以以下任何一种方式对可疑的HTTPS拦截做出响应(为了增加炫耀性):
 
-* 使用{mitm}[占位符](placeholder.md)和自定义日志格式把发生了什么记录到[日志](log.md)。
+* 使用{mitm}[占位符](placeholder.md)和自定义日志格式把发生了什么记录到[日志](http.log.md)。
 
-* 如果代理一个上游应用程序，在`proxy`指令中使用header_upstream[添加一个请求头](proxy.md)，其值包含{mitm}。
+* 如果代理一个上游应用程序，在`proxy`指令中使用header_upstream[添加一个请求头](http.proxy.md)，其值包含{mitm}。
 
-* 如果您正在使用[模板](templates.md)，请使用`{{.IsMITM}}`这个[模板操作](template-actions.md)在您的网站上向用户显示警告。
+* 如果您正在使用[模板](http.templates.md)，请使用`{{.IsMITM}}`这个[模板操作](template-actions.md)在您的网站上向用户显示警告。
 
-* 将URI通过[内部重写](rewrite.md)到展示专用警告、错误或信息的页面。
+* 将URI通过[内部重写](http.rewrite.md)到展示专用警告、错误或信息的页面。
 
-* 将用户[重定向](redir.md)到另一个页面或站点。
+* 将用户[重定向](http.redir.md)到另一个页面或站点。
 
 * 立即关闭连接返回一个空响应(可能很快就会出现哦)。
 
