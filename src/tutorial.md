@@ -6,7 +6,7 @@ template: "tutorial"
 
 # 快速开始
 
-1. 下载caddy并将其放入`PATH`变量
+1. [下载caddy](https://caddyserver.com/download.html)并将其放入`PATH`变量
 2. 进入网站目录
 3. 运行`caddy`命令
 
