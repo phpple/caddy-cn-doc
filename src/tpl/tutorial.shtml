@@ -11,7 +11,7 @@
   </li>
 </ul>
 <div class="my-2 my-lg-0">
-  {{.Include "tpl/github.shtml"}}
+  {{.Include "tpl/rightnav.shtml"}}
 </form>
 </div>
 </nav>
