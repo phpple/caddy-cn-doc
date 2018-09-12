@@ -37,7 +37,7 @@
     - [status](http.status.md)
     - [templates](http.templates.md)
     - [timeouts](http.timeouts.md)
-    - [tls](http.tls.md)
+    - [tls](tls.md)
     - [websocket](http.websocket.md)
 * 插件
     - [开发一个Caddy插件](https://github.com/mholt/caddy/wiki)
