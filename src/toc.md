@@ -22,7 +22,7 @@
     - [import](http.import.md)
     - [index](http.index.md)
     - [internal](http.internal.md)
-    - [limits](http.maxrequestbody.md)
+    - [limits](http.limits.md)
     - [log](http.log.md)
     - [markdown](http.markdown.md)
     - [mime](http.mime.md)
