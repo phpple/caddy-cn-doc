@@ -20,7 +20,13 @@
       $('table').addClass('table table-hover').find('thead').addClass('thead-dark');
       $('main h2,main h3').each(function(){
         this.id = this.innerText;
-      })
+      });
+      $('.bd-sidebar a').each(function() {
+        if ('/' + this.getAttribute('href') == location.pathname) {
+          $(this.parentNode).addClass('on');
+        }
+
+      });
     })();
     </script>
   </body>
