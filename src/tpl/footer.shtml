@@ -22,7 +22,7 @@
         this.id = this.innerText;
       });
       $('.bd-sidebar a').each(function() {
-        if ('/' + this.getAttribute('href') == location.pathname) {
+        if (document.URL.indexOf(this.href) > -1) {
           $(this.parentNode).addClass('on');
         }
 
