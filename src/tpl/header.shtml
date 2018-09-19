@@ -10,9 +10,9 @@
     <meta name="description" content="Caddy中文文档，caddy最完整的中文文档，帮助你了解caddy的一切，帮助你基于caddy快速搭建https站点。">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="http://c.dengxiaolong.com/static/bootstrap/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://c.dengxiaolong.com/static/bootstrap/css/bootstrap.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/sidebar.css"/>
-    <link rel="stylesheet" href="http://c.dengxiaolong.com/static/prismjs/prism.css"/>
+    <link rel="stylesheet" href="https://c.dengxiaolong.com/static/prismjs/prism.css"/>
     <link rel="icon" href="https://dengxiaolong.com/caddy/doc/resources/images/favicon.png"/>
     <link href="https://cdn.bootcss.com/octicons/4.4.0/font/octicons.css" rel="stylesheet">
   </head>

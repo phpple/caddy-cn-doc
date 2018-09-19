@@ -3,7 +3,7 @@
     <script src="https://c.dengxiaolong.com/static/jquery/jquery.slim.min.js" crossorigin="anonymous"></script>
     <script src="https://c.dengxiaolong.com/staitc/umd/popper.min.js" crossorigin="anonymous"></script>
     <script src="https://c.dengxiaolong.com/static/bootstrap/js/bootstrap.min.js"crossorigin="anonymous"></script>
-    <script src="http://c.dengxiaolong.com/static/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://c.dengxiaolong.com/static/umd/popper.min.js" crossorigin="anonymous"></script>
     <script>
     var _hmt = _hmt || [];
     (function() {
