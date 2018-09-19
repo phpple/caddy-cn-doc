@@ -6,9 +6,9 @@ sitename: "Caddy中文文档"
 
 # http.geoip
 
-geoip插件允许使用[MaxMind](https://www.maxmind.com/)数据库通过IP地址确定用户的地理位置。
+geoip插件允许基于[MaxMind](https://www.maxmind.com/)数据库通过IP地址确定用户的地理位置。
 
-[完整地址](https://github.com/kodnaplakal/caddy-geoip/blob/master/README.md)
+[完整文档](https://github.com/kodnaplakal/caddy-geoip/blob/master/README.md)
 
 ## 示例
 
