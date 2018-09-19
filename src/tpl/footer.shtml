@@ -1,7 +1,7 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://c.dengxiaolong.com/static/jquery/jquery.slim.min.js" crossorigin="anonymous"></script>
-    <script src="https://c.dengxiaolong.com/staitc/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://c.dengxiaolong.com/static/umd/popper.min.js" crossorigin="anonymous"></script>
     <script src="https://c.dengxiaolong.com/static/bootstrap/js/bootstrap.min.js"crossorigin="anonymous"></script>
     <script src="https://c.dengxiaolong.com/static/umd/popper.min.js" crossorigin="anonymous"></script>
     <script>
