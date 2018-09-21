@@ -1,6 +1,7 @@
 ---
 title: "Caddy中文文档"
 sitename: "Caddy中文文档"
+template: donate
 ---
 
 # Caddy中文文档
