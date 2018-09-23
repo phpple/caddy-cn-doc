@@ -4,3 +4,4 @@
 *.log
 /repo/
 /dist/
+/static/

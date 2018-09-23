@@ -10,7 +10,6 @@ markdown / {
     ext       .html .md
     template  tpl/index.shtml
     template  tutorial  tpl/tutorial.shtml
-    template  donate  tpl/donate.shtml
 }
 
 git https://github.com/phpple/caddy-cn-doc ../repo {
