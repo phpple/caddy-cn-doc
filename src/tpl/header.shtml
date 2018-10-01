@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="/css/sidebar.css"/>
     <link rel="stylesheet" href="https://c.dengxiaolong.com/static/prismjs/prism.css"/>
     <link rel="icon" href="https://dengxiaolong.com/caddy/doc/resources/images/favicon.png"/>
-    <link href="https://cdn.bootcss.com/octicons/4.4.0/font/octicons.css" rel="stylesheet">
+    <link href="https://c.dengxiaolong.com/static/octicons/octicons.min.css" rel="stylesheet">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
