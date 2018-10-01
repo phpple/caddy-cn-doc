@@ -40,7 +40,7 @@
     - [tls](tls.md)
     - [websocket](http.websocket.md)
 * 插件
-    - [开发一个Caddy插件](https://github.com/mholt/caddy/wiki)
+    - [开发一个Caddy插件](wiki.Extending-Caddy.md)
 * DNS服务商
     - [tls.dns.auroradns](tls.dns.auroradns.md)
     - [tls.dns.azure](tls.dns.azure.md)

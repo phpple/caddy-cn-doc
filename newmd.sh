@@ -7,20 +7,44 @@ fi
 
 name=$1
 title=$2
+sitename="Caddy中文文档"
+template=""
+
+if [[ $name =~ "wiki." ]];then
+    sitename="Caddy开发者wiki"
+    template="wiki"
+fi
 
 touch src/$name.md
 
 now=$(date +"%Y-%m-%d %H:%M:%S +0800")
-cat > src/$name.md <<MARKDOWN
+
+if [ $template = "" ];then
+    cat > src/$name.md <<MARKDOWN
 ---
 date: $now
 title: "$title"
-sitename: "Caddy中文文档"
+sitename: "$sitename"
 ---
 
 # $title
 
 MARKDOWN
+
+else
+    cat > src/$name.md <<MARKDOWN
+---
+date: $now
+title: "$title"
+sitename: "$sitename"
+template: "$template"
+---
+
+# $title
+
+MARKDOWN
+
+fi
 
 echo "create markdown file src/$name.md finished."
 exit 0

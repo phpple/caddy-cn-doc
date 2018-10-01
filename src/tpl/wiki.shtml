@@ -4,10 +4,10 @@
     <a class="nav-link" href="./">文档</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="tutorial.md">教程</a>
+    <a class="nav-link" href="tutorial.md">教程</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="wiki.md">wiki</a>
+    <a class="nav-link active" href="wiki.md">wiki</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="https://github.com/caddyserver/examples" target="_blank">示例</a>
@@ -22,7 +22,7 @@
   <div class="row flex-xl-nowrap">
     <div class="col-12 col-md-3 col-xl-2 bd-sidebar">
       <nav class="nav">
-      {{.Markdown "tt-toc.md"}}
+      {{.Markdown "wiki-toc.md"}}
       </nav>
     </div>
     <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">
