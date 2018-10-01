@@ -1,3 +1,14 @@
+    <hr>
+    <footer>
+      <center class="text-muted">
+        <small>&copy;2018-{{.Now "2006"}} dengxiaolong.com</small>
+        <br/>
+        <small>Caddy® is a registered trademark of Light Code Labs, LLC.</small>
+        <br/>
+        <small>京ICP备09041113号-6</small>
+      </center>
+    </footer>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://c.dengxiaolong.com/static/jquery/jquery.slim.min.js" crossorigin="anonymous"></script>

@@ -3,6 +3,24 @@ blockquote {
     margin: 0 0 20px;
     border-left: 5px solid #eee;
 }
+.navbar-light {
+    background-image: -webkit-linear-gradient(bottom, #00ce6f 0%, #0b54da 100%);
+    background-image: -o-linear-gradient(bottom, #00ce6f 0%, #0b54da 100%);
+    background-image: linear-gradient(to top, #00ce6f 0%, #0b54da 100%);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255,255,255,.8);
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(255,255,255,.9);
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(255,255,255,1);
+}
+.navbar-light .navbar-brand{
+    width: 150px;
+    color:#fff;
+}
 
 @media (min-width: 1200px)
 .bd-sidebar {
@@ -26,7 +44,6 @@ blockquote {
     -webkit-box-ordinal-group: 1;
     -ms-flex-order: 0;
     order: 0;
-    border-bottom: 1px solid rgba(0,0,0,.1);
 }
 .bd-sidenav {
     display: block;

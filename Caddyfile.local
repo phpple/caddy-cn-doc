@@ -1,0 +1,21 @@
+localhost:443
+
+tls self_signed
+
+errors logs/error.log
+log    logs/access.log
+root   src/
+
+rewrite /mitm/check /mitm/{mitm}.shtml
+
+markdown / {
+    ext       .html .md
+    template  tpl/index.shtml
+    template  tutorial  tpl/tutorial.shtml
+    template  wiki  tpl/wiki.shtml
+}
+
+#git https://github.com/phpple/caddy-cn-doc ../repo {
+#    clone_args "--depth=1"
+#    then       /bin/bash ../build.sh
+#}
