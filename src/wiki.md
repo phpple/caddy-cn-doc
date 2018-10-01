@@ -7,6 +7,10 @@ template: "wiki"
 
 # Caddy开发者wiki
 
+_<small>英文原文：<https://github.com/mholt/caddy/wiki></small>_
+
+___________________
+
 [Caddy](https://caddyserver.com/)是一个易于使用的通用web服务器。
 
 这个wiki是为开发人员提供的。如果你想学习如何使用Caddy，请查看Caddy网站上的[文档](https://caddyserver.com/docs)。

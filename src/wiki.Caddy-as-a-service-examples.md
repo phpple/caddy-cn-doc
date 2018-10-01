@@ -7,6 +7,10 @@ template: "wiki"
 
 # Caddy注册服务示例
 
+_<small>英文原文：<https://github.com/mholt/caddy/wiki/Caddy-as-a-service-examples></small>_
+
+___________________
+
 ## systemd
 
 请参阅[dist/init/linux-systemd](https://github.com/mholt/caddy/tree/master/dist/init/linux-systemd)以获取最新的完整的systemd单元文件。

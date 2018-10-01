@@ -7,6 +7,10 @@ template: "wiki"
 
 # 扩展Caddy
 
+_<small>英文原文：<https://github.com/mholt/caddy/wiki/Extending-Caddy></small>_
+
+_________________________
+
 加入[Caddy交流论坛](https://caddy.community/)和其他开发者一起分享。
 
 Caddy可以基于插件进行扩展。插件为Caddy添加了缺失的功能。它们在编译时“插入”。

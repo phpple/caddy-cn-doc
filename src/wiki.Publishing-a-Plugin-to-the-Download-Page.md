@@ -7,6 +7,10 @@ template: "wiki"
 
 # 发布插件到下载页面
 
+_<small>英文原文：<https://github.com/mholt/caddy/wiki/Publishing-a-Plugin-to-the-Download-Page></small>_
+
+__________
+
 加入[Caddy交流论坛](https://caddy.community/)和其他开发者一起分享。
 
 这个页面描述了如何将插件发布到Caddy网站上的下载页面。
