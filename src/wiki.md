@@ -19,7 +19,7 @@ template: "wiki"
 ### 开发Caddy插件
 
 1. [如何开发一个Caddy插件](wiki.Extending-Caddy.md)
-2. [如何把你的插件发布到Caddy官网](https://github.com/mholt/caddy/wiki/Publishing-a-Plugin-to-the-Download-Page)
+2. [如何把你的插件发布到Caddy官网](wiki.Publishing-a-Plugin-to-the-Download-Page)
 
 ### 交流
 
