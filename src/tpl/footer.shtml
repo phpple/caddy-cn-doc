@@ -34,7 +34,7 @@
       });
       $('.bd-sidebar a').each(function() {
         if (document.URL.indexOf(this.href) > -1) {
-          $(this.parentNode).addClass('on');
+          $(this.parentNode).addClass('active');
         }
       });
     })();

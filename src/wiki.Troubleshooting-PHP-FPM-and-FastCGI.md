@@ -10,7 +10,7 @@ template: "wiki"
 
 _<small>英文原文：<https://github.com/mholt/caddy/wiki/Troubleshooting-PHP-FPM-and-FastCGI></small>_
 
-_______________________
+----------------------------
 
 Caddy通过[FastCGI](http.fastcgi.md)指令支持PHP。大部分用户都使用PHP运行没有任何问题，但有些用户遇到了问题。
 

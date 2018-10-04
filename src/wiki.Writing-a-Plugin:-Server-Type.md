@@ -9,7 +9,7 @@ template: "wiki"
 
 _<small>英文原文：<https://github.com/mholt/caddy/wiki/Writing-a-Plugin:-Server-Type></small>_
 
-____________________________
+----------------------------
 
 加入[Caddy交流论坛](https://caddy.community/)和其他开发者一起分享。
 

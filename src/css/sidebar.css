@@ -73,7 +73,7 @@ blockquote {
     border-radius: 0.2rem;
     text-decoration:none;
 }
-.bd-sidebar .nav>ul>li>ul>li.on>a,.bd-sidebar .nav>ul>li>ul>li.on>a:hover{
+.bd-sidebar .nav>ul>li>ul li.active>a,.bd-sidebar .nav>ul>li>ul li.active>a:hover{
     background: #168ff9;
     color: #fff;
 }

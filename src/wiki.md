@@ -9,7 +9,7 @@ template: "wiki"
 
 _<small>英文原文：<https://github.com/mholt/caddy/wiki></small>_
 
-___________________
+----------------------------
 
 [Caddy](https://caddyserver.com/)是一个易于使用的通用web服务器。
 
