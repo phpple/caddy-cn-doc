@@ -6,6 +6,7 @@
         + [指令](wiki.Writing-a-Plugin%3A-Directives.md)
         + [HTTP中间件](wiki.Writing-a-Plugin%3A-HTTP-Middleware.md)
         + [Caddyfile加载器](wiki.Writing-a-Plugin%3A-Caddyfile-Loader.md)
+        + [DNS服务商](wiki.Writing-a-Plugin%3A-DNS-Provider.md)
     - [发布扩展到下载页面](wiki.Publishing-a-Plugin-to-the-Download-Page.md)
     - [PHP FPM和FastCGI故障排除](wiki.Troubleshooting-PHP-FPM-and-FastCGI.md)
 
