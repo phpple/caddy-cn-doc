@@ -25,7 +25,7 @@ Caddy的每个构成几乎都是插件。HTTP服务器是一个插件。Caddy的
 * __[指令](wiki.Writing-a-Plugin%3A-Directives.md)__ Caddyfile的一个指令。
 * __[HTTP中间件](wiki.Writing-a-Plugin%3A-HTTP-Middleware.md)__ 处理HTTP请求的函数，通常由Caddyfile指令调用。
 * __[Caddyfile加载器](wiki.Writing-a-Plugin%3A-Caddyfile-Loader.md)__ 自定义Caddyfile加载的方式。
-* __[DNS服务商](https://github.com/mholt/caddy/wiki/Writing-a-Plugin:-DNS-Provider)__ 让ACME的DNS挑战与你的DNS服务商兼容。
+* __[DNS提供者](https://github.com/mholt/caddy/wiki/Writing-a-Plugin:-DNS-Provider)__ 让ACME的DNS挑战与你的DNS提供者兼容。
 * __监听器中间件__ 通过包装一个`net.Listener`使用自己的侦听器在传输层或协议层执行某些操作。
 * __事件钩子__ 当Caddy进程发出某些事件时，执行一个函数。
 

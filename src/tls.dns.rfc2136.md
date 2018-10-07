@@ -6,7 +6,7 @@ sitename: "Caddy中文文档"
 
 # tls.dns.rfc2136
 
-允许从任意兼容rfc2136的DNS服务商使用DNS记录获取证书，进行域名管理。
+允许从任意兼容rfc2136的DNS提供者使用DNS记录获取证书，进行域名管理。
 
 [完整文档](https://github.com/caddyserver/dnsproviders/blob/master/README.md)
 

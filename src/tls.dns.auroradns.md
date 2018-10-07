@@ -20,4 +20,4 @@ tls {
 }
 ```
 
-在tls指令中指定auroradns作为DNS服务商。
+在tls指令中指定auroradns作为DNS提供者。

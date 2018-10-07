@@ -24,7 +24,7 @@ dyndns {
 }
 ```
 
-* __provider__: cloudflare/yandex - DNS服务商名称。
+* __provider__: cloudflare/yandex - DNS提供者名称。
 
 * __ipaddress__: 
     * __http__ 从远程服务器获取外部IP（http://whatismyip.akamai.com/, http://ipv4.myexternalip.com/raw或其他以原始格式的正文）。

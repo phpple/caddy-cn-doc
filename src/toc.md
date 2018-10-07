@@ -41,7 +41,7 @@
     - [websocket](http.websocket.md)
 * 插件
     - [开发一个Caddy插件](wiki.Extending-Caddy.md)
-* DNS服务商
+* DNS提供者
     - [tls.dns.auroradns](tls.dns.auroradns.md)
     - [tls.dns.azure](tls.dns.azure.md)
     - [tls.dns.cloudflare](tls.dns.cloudflare.md)
