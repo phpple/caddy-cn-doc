@@ -11,6 +11,7 @@
         + [DNS提供者](wiki.Writing-a-Plugin%3A-DNS-Provider.md)
     - [自己插入插件](wiki.Plugging-in-Plugins-Yourself.md)
     - [发布扩展到下载页面](wiki.Publishing-a-Plugin-to-the-Download-Page.md)
+    - [QUIC](wiki.QUIC.md)
     - [在Android运行Caddy](wiki.Running-Caddy-on-Android.md)
     - [HTTP中间件开发人员应该知道的事情](wiki.Things-HTTP-Middleware-Developers-Should-Know.md)
     - [PHP FPM和FastCGI故障排除](wiki.Troubleshooting-PHP-FPM-and-FastCGI.md)
