@@ -11,6 +11,7 @@ markdown / {
     template  tpl/index.shtml
     template  tutorial  tpl/tutorial.shtml
     template  wiki  tpl/wiki.shtml
+    template  example  tpl/example.shtml
 }
 
 git https://github.com/phpple/caddy-cn-doc ../repo {

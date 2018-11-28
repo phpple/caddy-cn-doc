@@ -10,16 +10,20 @@ title=$2
 sitename="Caddy中文文档"
 template=""
 
-if [[ $name =~ "wiki." ]];then
+if [[ "$name" =~ "wiki." ]];then
     sitename="Caddy开发者wiki"
     template="wiki"
+fi
+if [[ "$name" =~ "example." ]];then
+    sitename="Caddy配置示例"
+    template="example"
 fi
 
 touch src/$name.md
 
 now=$(date +"%Y-%m-%d %H:%M:%S +0800")
 
-if [ $template = "" ];then
+if [ "$template" = "" ];then
     cat > src/$name.md <<MARKDOWN
 ---
 date: $now

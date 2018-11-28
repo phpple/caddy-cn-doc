@@ -7,10 +7,10 @@
     <a class="nav-link" href="tutorial.md">教程</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="wiki.md">wiki</a>
+    <a class="nav-link" href="wiki.md">wiki</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="example.md">示例</a>
+    <a class="nav-link active" href="example.md">示例</a>
   </li>
 </ul>
 <div class="my-2 my-lg-0">
@@ -22,7 +22,7 @@
   <div class="row flex-xl-nowrap">
     <div class="col-12 col-md-3 col-xl-2 bd-sidebar">
       <nav class="nav">
-      {{.Markdown "wiki-toc.md"}}
+      {{.Markdown "example-toc.md"}}
       </nav>
     </div>
     <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">

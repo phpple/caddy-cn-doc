@@ -10,7 +10,7 @@
     <a class="nav-link" href="wiki.md">wiki</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="https://github.com/caddyserver/examples" target="_blank">示例</a>
+    <a class="nav-link" href="example.md">示例</a>
   </li>
 </ul>
 <div class="my-2 my-lg-0">
