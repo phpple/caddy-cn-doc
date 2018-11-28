@@ -18,6 +18,9 @@
     <script>
     var _hmt = _hmt || [];
     (function() {
+      if (location.hostname == "doc.zhnytech.com") {
+        location.href = "https://dengxiaolong.com/caddy/cn-doc/";
+      }
       if (location.hostname != "dengxiaolong.com") {
         return;
       }
