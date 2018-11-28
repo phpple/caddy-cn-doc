@@ -1,4 +1,4 @@
-localhost:443
+https://caddy.hapn.cc localhost:443
 
 tls self_signed
 
