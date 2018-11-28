@@ -1,4 +1,4 @@
-  * 开发者wiki
+  * 配置示例
     - [basicauthproxy](example.basicauthproxy.md)
     - [chevereto](example.chevereto.md)
     - [cmsmadesimple](example.cmsmadesimple.md)

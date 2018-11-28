@@ -1,7 +1,7 @@
 ---
 date: 2018-11-28 22:09:43 +0800
 title: "example"
-sitename: "Caddyfile示例"
+sitename: "Caddy配置示例"
 template: "example"
 ---
 
