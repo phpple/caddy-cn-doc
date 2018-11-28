@@ -33,7 +33,7 @@ _<small>英文原文：<https://github.com/mholt/caddy/wiki></small>_
 
 ### 其他话题
 
-* [试试QUIC](https://github.com/mholt/caddy/wiki/QUIC)
-* [PHP-FPM排疑解难](https://github.com/mholt/caddy/wiki/Troubleshooting-PHP-FPM-and-FastCGI)
-* [在Android运行Caddy](https://github.com/mholt/caddy/wiki/Running-Caddy-on-Android)
+* [试试QUIC](wiki.QUIC.md)
+* [PHP-FPM排疑解难](wiki.Troubleshooting-PHP-FPM-and-FastCGI.md)
+* [在Android运行Caddy](wiki.Running-Caddy-on-Android.md)
 
