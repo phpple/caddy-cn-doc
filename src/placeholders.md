@@ -37,9 +37,9 @@ sitename: "Caddy中文文档"
 | {request_id} | 请求ID的UUID。如果在Caddyfile中没有使用`request_id`指令，则返回为空 |
 | {request_body} | 请求体，压缩到一行了（最大长度100 KB；只能是JSON或者XML）  |
 | {rewrite_path} | 和{path}类似，但是是经过重写后的路径 |
-| {rewrite_path_escaped} | {rewrite_path}的查询转义变体  |
+| {rewrite\_path\_escaped} | {rewrite_path}的查询转义变体  |
 | {rewrite_uri} | 任何重写发生后的请求URI（包括路径、查询字符串、以及锚部分）  |
-| {rewrite_uri_escaped} | {rewrite_uri}的查询转义变体  |
+| {rewrite\_uri\_escaped} | {rewrite_uri}的查询转义变体  |
 | {scheme}   | 使用的协议/方案（通常是http或者https）  |
 | {tls_cipher} | 用于TLS连接的密码套件  |
 | {tls_version} | TLS版本  |
