@@ -4,9 +4,9 @@ blockquote {
     border-left: 5px solid #eee;
 }
 .navbar-light {
-    background-image: -webkit-linear-gradient(bottom, #00ce6f 0%, #0b54da 100%);
-    background-image: -o-linear-gradient(bottom, #00ce6f 0%, #0b54da 100%);
-    background-image: linear-gradient(to top, #00ce6f 0%, #0b54da 100%);
+    background-image: -webkit-linear-gradient(bottom, #0b9215 0%, #0de81e 100%);
+    background-image: -o-linear-gradient(bottom, #0b9215 0%, #0de81e 100%);
+    background-image: linear-gradient(to top, #0b9215 0%, #0de81e 100%);
 }
 .navbar-light .navbar-nav .nav-link {
     color: rgba(255,255,255,.8);
