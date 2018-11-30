@@ -1,6 +1,6 @@
 ---
 date: 2018-11-28 22:21:27 +0800
-title: "Caddy的basicauthproxy配置"
+title: "Caddy的basic验证代理配置"
 sitename: "Caddy配置示例"
 template: "example"
 ---
