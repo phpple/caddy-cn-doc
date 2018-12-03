@@ -16,4 +16,4 @@ caddy
 
 * [文档首页](src/index.md)
 * [目录浏览](src/toc.md)
-* [Caddy中文文档在线浏览](https://dengxiaolong.com/caddy/cn-doc/)
+* [Caddy中文文档在线浏览](https://dengxiaolong.com/caddy/zh/)
