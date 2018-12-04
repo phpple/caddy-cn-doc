@@ -9,7 +9,7 @@ template: "example"
 
 Drupal ♥️ Caddy
 
-本示例用来通过Caddy运行Drupal 7。定义了很多访问模块文件、SQL文件以及其他不应该被访问到的扩展名的文件。同时也禁止访问.开头的文件。
+本示例用来通过Caddy运行[Drupal 7](https://www.drupal.org/)。定义了很多访问模块文件、SQL文件以及其他不应该被访问到的扩展名的文件。同时也禁止访问.开头的文件。
 
 为了能正常运行，你需要更换网站地址，根目录，以及php-fpm信息。
 

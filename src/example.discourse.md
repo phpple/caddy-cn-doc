@@ -40,3 +40,13 @@ sudo ./launcher rebuild app
 ```
 
 稍等一会后，Discourse的安装就将随Caddy在线展示了。
+
+## Caddyfile
+
+```caddy
+discourse.yoursite.com
+
+proxy / localhost:8080 {
+	transparent
+}
+```
