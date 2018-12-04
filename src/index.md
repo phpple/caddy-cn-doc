@@ -16,6 +16,8 @@ sitename: "Caddy中文文档"
 ## [示例](example.md)
 浏览我们提供的一些常用的简单的Caddyfile例子，了解Caddy的一些常见使用方式。
 
+本站对应的github地址是：<https://github.com/phpple/caddy-cn-doc>，欢迎您到[issue](https://github.com/phpple/caddy-cn-doc/issues)交流关于caddy的一切。
+
 <center>
 ## 专家推荐
 
@@ -122,6 +124,7 @@ https://matt.life</code></pre>
 ------------------------------
 
 ### 友情链接
+
 
 * [hugo中文文档](http://www.gohugo.org/)
 
