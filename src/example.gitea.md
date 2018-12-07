@@ -7,6 +7,8 @@ template: "example"
 
 # Gitea的Caddy配置
 
+<img src="https://gitea.io/images/gitea.png" width="150"/>
+
 这是一个如何使[Gitea](https://gitea.io/)使用Caddy的示例配置。
 
 这个配置使用了下面的假设

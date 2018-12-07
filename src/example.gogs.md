@@ -7,6 +7,8 @@ template: "example"
 
 # Gogs的Caddy配置
 
+<img src="https://gogs.io/img/favicon.ico" width="120" height="auto"/>
+
 这是一个使用Caddy运行[Gogs](https://gogs.io/)的配置示例。
 
 配置做了如下假设：
