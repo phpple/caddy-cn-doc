@@ -129,3 +129,14 @@ sudo find /var/www/ghost/* -type f -exec chmod 664 {} \;
 ```
 
 有关其他故障排除，请参考文档丰富、易于理解的[官方Ghost文档](https://docs.ghost.org/docs)。
+
+## Caddyfile
+
+```caddy
+www.mycoolghostblog.com {
+    gzip
+    proxy / localhost:2368 {
+        transparent
+    }
+}
+```
