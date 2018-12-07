@@ -1,11 +1,11 @@
 ---
 date: 2018-12-01 01:44:49 +0800
-title: "Caddy的Drupal配置"
+title: "Drupal的Caddy配置"
 sitename: "Caddy配置示例"
 template: "example"
 ---
 
-# Caddy的Drupal配置
+# Drupal的Caddy配置
 
 Drupal ♥️ Caddy
 

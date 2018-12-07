@@ -1,11 +1,11 @@
 ---
 date: 2018-11-28 22:38:34 +0800
-title: "Caddy的gitlab配置"
+title: "Gitlab的Caddy配置"
 sitename: "Caddy配置示例"
 template: "example"
 ---
 
-# Caddy的gitlab配置
+# Gitlab的Caddy配置
 
 这是使用Caddy运行[Gitlab](https://gitlab.com/)的配置示例。
 

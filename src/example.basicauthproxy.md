@@ -1,11 +1,11 @@
 ---
 date: 2018-11-28 22:21:27 +0800
-title: "Caddy的basic验证代理配置"
+title: "Basic验证代理的Caddy配置"
 sitename: "Caddy配置示例"
 template: "example"
 ---
 
-# Caddy的basic验证代理配置
+# Basic验证代理的Caddy配置
 
 本文将学习如何将Caddy如何在http服务器的前端充当basic验证代理。想了解更多，查看[http.basicauth](http.basicauth.md)和[http.proxy](http.proxy.md)的文档。
 

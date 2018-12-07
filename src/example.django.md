@@ -1,11 +1,11 @@
 ---
 date: 2018-12-01 01:37:12 +0800
-title: "Caddy的Django配置"
+title: "Django的Caddy配置"
 sitename: "Caddy配置示例"
 template: "example"
 ---
 
-# Caddy的Django配置
+# Django的Caddy配置
 
 这是一个使用gunicorn运行的Django项目的配置例子。目前，caddy还不支持uwsgi协议，最好的选择，就是代理请求到应用服务器。
 

@@ -1,11 +1,11 @@
 ---
 date: 2018-12-05 09:37:35 +0800
-title: "Caddy的Gitea配置"
+title: "Gitea的配置"
 sitename: "Caddy配置示例"
 template: "example"
 ---
 
-# Caddy的Gitea配置
+# Gitea的Caddy配置
 
 这是一个如何使[Gitea](https://gitea.io/)使用Caddy的示例配置。
 
