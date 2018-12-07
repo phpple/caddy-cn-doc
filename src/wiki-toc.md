@@ -2,7 +2,7 @@
     - [首页](wiki.md)
     - [Caddy注册服务示例](wiki.Caddy-as-a-service-examples.md)
     - [Docker容器](wiki.Docker-Containers.md)
-    - [在Go程序中嵌入Caddy](Embedding-Caddy-in-your-Go-program)
+    - [在Go程序中嵌入Caddy](wiki.Embedding-Caddy-in-your-Go-program.md)
     - [扩展Caddy](wiki.Extending-Caddy.md)
         + [服务器类型](wiki.Writing-a-Plugin%3A-Server-Type.md)
         + [指令](wiki.Writing-a-Plugin%3A-Directives.md)
