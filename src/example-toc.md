@@ -20,6 +20,6 @@
     - [grav](example.grav.md)
     - [headphones](example.headphones.md)
     - [laravel](example.laravel.md)
-    - 
+    - [zabbix](example.zabbix.md)
 
 * [&lt;&lt; 返回文档](./)
