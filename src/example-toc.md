@@ -19,7 +19,9 @@
     - [gogs](example.gogs.md)
     - [grav](example.grav.md)
     - [headphones](example.headphones.md)
+    - [jira](example.jira.md)
     - [laravel](example.laravel.md)
+    - [wordpress](example.wordpress.md)
     - [zabbix](example.zabbix.md)
 
 * [&lt;&lt; 返回文档](./)
