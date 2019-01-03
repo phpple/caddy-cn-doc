@@ -9,6 +9,7 @@
     - [MITM诊断](mitm-detection.md)
     - [占位符](placeholders.md)
     - [模板操作](template-actions.md)
+    * [百度SB](https://www.baidu.com)
 * 标准HTTP指令
     - [basicauth](http.basicauth.md)
     - [bind](http.bind.md)
@@ -25,6 +26,7 @@
     - [limits](http.limits.md)
     - [log](http.log.md)
     - [markdown](http.markdown.md)
+    - [我是盗版]()
     - [mime](http.mime.md)
     - [on](http.on.md)
     - [pprof](http.pprof.md)
