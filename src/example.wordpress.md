@@ -7,7 +7,7 @@ template: "example"
 
 # Wordpress的Caddy配置
 
-<img src="https://s.w.org/style/images/wporg-logo.svg?3" width="120"/>
+<img src="https://s.w.org/style/images/wporg-logo.svg?3" height="80"/>
 
 这是如何通过caddy使用[WordPress](https://wordpress.org/)的配置示例。
 
