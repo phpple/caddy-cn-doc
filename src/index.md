@@ -5,6 +5,8 @@ sitename: "Caddy中文文档"
 
 # Caddy中文文档
 
+<iframe src="https://ghbtns.com/github-btn.html?user=phpple&repo=caddy-cn-doc&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px" class="github-stars"></iframe>
+
 ## 关于本站
 
 * 🎉恭喜本站被[阮一峰的网络日志《每周分享第34期》](http://www.ruanyifeng.com/blog/2018/12/weekly-issue-34.html)推荐。
@@ -116,6 +118,27 @@ https://matt.life</code></pre>
     </div>
     <div class="col-sm-6">
         <img src="https://caddyserver.com/resources/images/open-your-browser.png" style="width:20rem;">
+    </div>
+</div>
+
+### 最受欢迎的web server
+
+<div class="row">
+    <div class="col-sm-6">
+        <blockquote>Caddy和Let's Encrypt是相当不可思议的。3行配置文件生成一个完全A级SSL站点。毫不费力！</blockquote>
+        <div class="text-right">
+            -- John Resig<br/>
+            jQuery创始人<br/>
+            <a href="https://twitter.com/jeresig/status/821768122017398785">链接</a>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <blockquote>使用Caddy，网站开发人员可以享受非常简捷的搭建和配置过程，从而最大化实现和基础设施的效率。</blockquote>
+        <div class="text-right">
+             -- Laura Bernheim<br/>
+            HostingAdvice特约编辑<br/>
+            <a href="https://www.hostingadvice.com/blog/caddy-automatic-https-implementation-reinvents-web-servers/">链接</a>
+        </div>
     </div>
 </div>
 
