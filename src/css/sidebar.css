@@ -4,9 +4,7 @@ blockquote {
     border-left: 5px solid #eee;
 }
 .navbar-light {
-    background-image: -webkit-linear-gradient(bottom, #0b9215 0%, #0de81e 100%);
-    background-image: -o-linear-gradient(bottom, #0b9215 0%, #0de81e 100%);
-    background-image: linear-gradient(to top, #0b9215 0%, #0de81e 100%);
+    background-image: url(https://c.dengxiaolong.com/caddy/stream.png), linear-gradient(0deg, #00e888 0%, #098fef 100%);
 }
 .navbar-light .navbar-nav .nav-link {
     color: rgba(255,255,255,.8);
@@ -74,11 +72,11 @@ blockquote {
     text-decoration:none;
 }
 .bd-sidebar .nav>ul>li>ul li.active>a,.bd-sidebar .nav>ul>li>ul li.active>a:hover{
-    background: #168ff9;
+    background: #00dd88;
     color: #fff;
 }
 .bd-sidebar .nav>ul>li>ul>li>a:hover {
-    background: #bcdefc;
+    background: #ddffde;
 }
 .bd-toc-link {
     
