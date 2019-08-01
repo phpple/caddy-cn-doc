@@ -106,3 +106,6 @@
 * 服务类型
     - [dns](dns.md)
     - [net](net.md)
+    - [supervisor](supervisor.md)
+* TLS集群
+    - [consul](consul.md)
