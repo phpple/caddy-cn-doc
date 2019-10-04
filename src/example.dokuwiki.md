@@ -1,11 +1,11 @@
 ---
 date: 2018-12-04 23:43:45 +0800
-title: "Caddy的DokuWIKI配置"
+title: "DokuWiki的Caddy配置"
 sitename: "Caddy配置示例"
 template: "example"
 ---
 
-# Caddy的DokuWiki配置
+# DokuWiki的Caddy配置
 
 这是如何使用Caddy支持[DokuWiki](https://www.dokuwiki.org/)的示例配置。
 

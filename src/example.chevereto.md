@@ -1,11 +1,11 @@
 ---
 date: 2018-12-01 01:11:47 +0800
-title: "Caddy的Chevereto配置"
+title: "Chevereto的Caddy配置"
 sitename: "Caddy配置示例"
 template: "example"
 ---
 
-# Caddy的Chevereto配置
+# Chevereto的Caddy配置
 
 这是一个通过Caddy运行[Chevereto](https://chevereto.com/)的一个配置示例。
 

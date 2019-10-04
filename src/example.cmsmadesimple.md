@@ -1,11 +1,11 @@
 ---
 date: 2018-12-01 01:15:40 +0800
-title: "Caddy的CMS Made Simple配置"
+title: "CMS Made Simple的Caddy配置"
 sitename: "Caddy配置示例"
 template: "example"
 ---
 
-# Caddy的CMS Made Simple配置
+# CMS Made Simple的Caddy配置
 
 这篇文章介绍了通过Caddy使用[CMS Made Simple](https://www.cmsmadesimple.org/)的配置。
 

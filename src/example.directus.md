@@ -1,11 +1,11 @@
 ---
 date: 2018-12-04 23:08:15 +0800
-title: "Caddy的Directus配置"
+title: "Directus的Caddy配置"
 sitename: "Caddy配置示例"
 template: "example"
 ---
 
-# Caddy的Directus配置
+# Directus的Caddy配置
 
 本文档是无状态API驱动CMS系统——[directus](https://getdirectus.com/]的caddy配置文件示例。
 

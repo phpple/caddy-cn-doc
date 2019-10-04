@@ -1,11 +1,11 @@
 ---
 date: 2018-12-04 23:51:45 +0800
-title: "Caddy的Drone配置"
+title: "Drone的Caddy配置"
 sitename: "Caddy配置示例"
 template: "example"
 ---
 
-# Caddy的Drone配置
+# Drone的Caddy配置
 
 这是如何通过Caddy使用[Drone](https://github.com/drone/drone)的配置示例。
 

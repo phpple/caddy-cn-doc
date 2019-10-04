@@ -1,11 +1,11 @@
 ---
 date: 2018-12-04 22:25:53 +0800
-title: "Caddy的Concrete5配置"
+title: "Concrete5的Caddy配置"
 sitename: "Caddy配置示例"
 template: "example"
 ---
 
-# Caddy的Concrete5配置
+# Concrete5的Caddy配置
 
 这是让Caddy支持[Concrete5](http://www.concrete5.org/)的配置示例。
 

@@ -1,11 +1,13 @@
 ---
 date: 2018-11-28 22:33:58 +0800
-title: "Caddy的gogs配置"
+title: "Gogs的Caddy配置"
 sitename: "Caddy配置示例"
 template: "example"
 ---
 
-# Caddy的gogs配置
+# Gogs的Caddy配置
+
+<img src="https://gogs.io/img/favicon.ico" width="120" height="auto"/>
 
 这是一个使用Caddy运行[Gogs](https://gogs.io/)的配置示例。
 

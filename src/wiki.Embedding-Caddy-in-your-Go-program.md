@@ -1,29 +1,31 @@
 ---
-date: 2018-10-07 20:08:16 +0800
-title: "在Go程序中嵌入Caddy"
+date: 2018-12-07 23:42:14 +0800
+title: "在Go程序中中嵌入Caddy"
 sitename: "Caddy开发者wiki"
 template: "wiki"
 ---
 
-# 在Go程序中嵌入Caddy
+# 在Go程序中中嵌入Caddy
 
-_<small>英文原文：<https://github.com/mholt/caddy/wiki/Embedding-Caddy-in-your-Go-program></small>_
+_<small>英文原文：<https://github.com/mholt/caddy/wiki/Extending-Caddy></small>_
 
 _________________________
 
-在你的Go程序中，你可以把Caddy当作库。如果你的Go应用程序不仅仅需要Go的基本静态文件服务器或反向代理，那么这是非常有用的。当你需要重新加载程序时，你甚至可以利用Caddy优雅的重启功能。
+加入[Caddy交流论坛](https://caddy.community/)和其他开发者一起分享。
 
-你只需要一个[caddy](https://godoc.org/github.com/mholt/caddy)包。链接对应的godoc有详细的说明。
+你可以用Caddy作为你Go应用程序的库。如果你的Go应用程序需要的不仅仅是Go的基本静态文件服务器或反向代理，那么这一点非常有用。当你需要重新加载程序时，你甚至可以利用Caddy优雅的重启功能。
 
-注意：如果不想创建原始的Caddyfile字符串，可以使用[caddyfile](https://godoc.org/github.com/mholt/caddy/caddyfile)包在该字符串和标识的JSON表示之间进行转换。它的结构简单，很容易用代码操作，而不是解析原始字符串。
+如果你只需要[caddy](https://godoc.org/github.com/mholt/caddy)包，链接的godoc有相关指令。
 
-下面是一个基本示例：
+注意：如果你不想创建原始的Caddyfile字符串，可以使用Caddyfile包将字符串转化为通过JSON表示的标识。它结构简单，很容易使用代码操作，而不需要解析原始字符串。
+
+下面是一个简单的例子：
 
 ```go
 caddy.AppName = "Sprocket"
 caddy.AppVersion = "1.2.3"
 
-// pass in the name of the server type this Caddyfile is for (like "http")
+// 传入这个Caddyfile的服务类型名称（比如"http"）
 caddyfile, err := caddy.LoadCaddyfile(serverType)
 if err != nil {
     log.Fatal(err)
@@ -34,24 +36,24 @@ if err != nil {
     log.Fatal(err)
 }
 
-// Start() only blocks until the servers have started.
-// Wait() blocks until the servers have stopped.
+// Start() 在服务启动完毕前处于阻塞状态
+// Wait() 在服务停止前处于阻塞状态
 instance.Wait()
 ```
 
-你也可以重启Caddy：
+你也能重启Caddy：
 
 ```go
-// On Unix systems, you get graceful restarts.
-// To use same Caddyfile, just pass in nil.
-// Be sure to replace the old instance with the new one!
+// 在Linux系统，能使用平滑重启
+// 要使用同一个Caddyfile，只需要传入nil
+// 请务必使用新实例替换掉旧的！
 instance, err = instance.Restart(newCaddyfile)
 if err != nil {
     log.Fatal(err)
 }
 ```
 
-或者停止他：
+或者停止它：
 
 ```go
 err = instance.Stop()
@@ -60,7 +62,7 @@ if err != nil {
 }
 ```
 
-下面是另一个示例，它从当前目录加载应用程序的Caddyfile：
+下面是另外一个例子，用来为你的应用从当前目录载入Caddyfile：
 
 ```go
 package main
@@ -75,7 +77,7 @@ import (
 )
 
 func init() {
-    // configure default caddyfile
+    // 配置默认caddyfile
     caddy.SetDefaultCaddyfileLoader("default", caddy.LoaderFunc(defaultLoader))
 }
 
@@ -83,13 +85,13 @@ func main() {
     caddy.AppName = "Sprocketplus"
     caddy.AppVersion = "1.2.3"
 
-    // load caddyfile
+    // 载入caddyfile
     caddyfile, err := caddy.LoadCaddyfile("http")
     if err != nil {
         log.Fatal(err)
     }
 
-    // start caddy server
+    // 启动caddy服务
     instance, err := caddy.Start(caddyfile)
     if err != nil {
         log.Fatal(err)
@@ -98,7 +100,7 @@ func main() {
     instance.Wait()
 }
 
-// provide loader function
+// 提供载入功能
 func defaultLoader(serverType string) (caddy.Input, error) {
     contents, err := ioutil.ReadFile(caddy.DefaultConfigFile)
     if err != nil {
@@ -115,4 +117,4 @@ func defaultLoader(serverType string) (caddy.Input, error) {
 }
 ```
 
-请务必参考godoc获取caddy包的最新信息。好运！
+请务必参考godoc获取caddy包的最新内容。好运！

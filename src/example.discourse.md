@@ -1,11 +1,11 @@
 ---
 date: 2018-12-04 23:14:10 +0800
-title: "Caddy的Discourse配置"
+title: "Discourse的Caddy配置"
 sitename: "Caddy配置示例"
 template: "example"
 ---
 
-# Caddy的Discourse配置
+# Discourse的Caddy配置
 
 通过Caddy运行[Discourse](https://www.discourse.org/)非常简单。安装完Discourse以后，你需要稍微调整容器的配置。
 
