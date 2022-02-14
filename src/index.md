@@ -5,6 +5,8 @@ sitename: "Caddy中文文档"
 
 # Caddy中文文档
 
+本站是Caddy v1版本的中文文档，最新的版本已经更新到v2，点击进入[Caddy v2中文文档](https://caddy2.dengxiaolong.com/)。
+
 <iframe src="https://ghbtns.com/github-btn.html?user=phpple&repo=caddy-cn-doc&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px" class="github-stars"></iframe>
 
 ## 关于本站
